@@ -10,6 +10,7 @@ var path       = require('path');
 // Options that can be passed to commands
 var options = {
   "root": String,
+  "asset_root": String,
   "layouts": String,
   "partials": String,
   "data": String,
@@ -21,6 +22,7 @@ var options = {
 // Shorthands for the above commands
 var shorthands = {
   "r": "--root",
+  "ar": "--ar",
   "l": "--layouts",
   "p": "--partials",
   "d": "--data",
